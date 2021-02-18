@@ -25,20 +25,24 @@ public class Rectangle {
      public void printPerimeter() {
     	 System.out.println(2*(length + breadth));
      }
-     
+}
    public  class Square extends Rectangle {
     	 int side;
     	 public Square (int s) {
     		 super (s,s);
     	 }  	 
      }
- }
+ 
     class Read{
     
      	public static void main(String[] args) {
 		Rectangle r = new Rectangle(5, 6);
 		r.printArea();
 		r.printPerimeter();
+		
+		Square s = new Square(6);
+		s.printArea();
+		s.printPerimeter();
 
 	}
 
