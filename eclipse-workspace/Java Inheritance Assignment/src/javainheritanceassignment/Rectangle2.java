@@ -31,6 +31,10 @@ package javainheritanceassignment;
 			Rectangle2 r = new Rectangle2(5, 6);
 			r.printArea();
 			r.printPerimeter();
+			
+			Square s = new Square(6);
+		        s.printArea();
+		        s.printPerimeter();
              
 			Square2 [] a = new Square2[10];
 			int k = 6;
